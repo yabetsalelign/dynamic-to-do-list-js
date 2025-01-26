@@ -24,6 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
         }
+        removeButton.classList.add('remove-btn');
+
         const listItem = document.createElement('li');
         listItem.textContent = taskText;
         const removeButton = document.createElement('button');
